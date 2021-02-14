@@ -1,0 +1,6 @@
+sentence = input("Please enter a sentence: ")
+dictionary = {}
+for i in sentence:
+  letter = sentence.count(i)
+  dictionary[i] = letter
+print(dictionary)
